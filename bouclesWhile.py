@@ -3,7 +3,6 @@ import random
 
 nb_aleatoire = int(input("Deviner le nombre aléatoire qui est compris entre 0 et 100 >>\t"))
 aleatoire = random.randrange(100)
-
 while nb_aleatoire != aleatoire:
 
     if nb_aleatoire < aleatoire:
