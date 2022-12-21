@@ -6,11 +6,11 @@ while age < 0:
     age = int(age)
 
 if 0 < age < 18:
-    print("vous ete un(e) mineur(e).")
+    print("vous êtes un(e) mineur(e).")
 elif 18 <= age < 22:
-    print("vous ete majeur.")
+    print("vous êtes majeur.")
 elif 22 < age <= 40:
-    print("Vous un(e) adulte.")
+    print("Vous êtes un(e) adulte.")
 else:
     print("vous êtes dans la generation ancienne.")
 print("le test est terminer.")
