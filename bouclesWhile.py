@@ -4,7 +4,6 @@ import random
 nb_aleatoire = int(input("Deviner le nombre aléatoire qui est compris entre 0 et 100 >>\t"))
 aleatoire = random.randrange(100)
 while nb_aleatoire != aleatoire:
-
     if nb_aleatoire < aleatoire:
         print("le nombre saisi est plus petit que le nombre aléatoire.")
         nb_aleatoire = int(input("Deviner le nombre aléatoire qui est compris entre 0 et 100 >>\t"))
@@ -18,4 +17,3 @@ while nb_aleatoire != aleatoire:
         break
 
 print("au revoir à la prochaine.")
-
