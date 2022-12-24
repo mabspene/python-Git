@@ -4,7 +4,6 @@ age = int(age)
 while age < 0:
     age = input("Veuiller sasir votre age correctement svp: \t")
     age = int(age)
-
 if 0 < age < 18:
     print("vous êtes un(e) mineur(e).")
 elif 18 <= age < 22:
