@@ -34,3 +34,4 @@ for j in val:
     print("la valeur {} est {}".format(val.index(j), j))
 print("le maximum est >>\t{}".format(max(val)))
 print("le minimum est >>\t{}".format(min(val)))
+
